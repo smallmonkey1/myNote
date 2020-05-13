@@ -1,0 +1,45 @@
+# 修改项目的配置
+
+![image-20200512234722714](eclipse项目小配置.assets/image-20200512234722714.png)
+
+打开过滤器，让过滤器不要过滤 .\* resources
+
+
+
+![image-20200512234752127](eclipse项目小配置.assets/image-20200512234752127.png)
+
+
+
+看看项目文件列表
+
+![image-20200512234934362](eclipse项目小配置.assets/image-20200512234934362.png)
+
+project 里面是工程的一些设置
+
+classpath 里面是编译的目标地址啊什么什么的
+
+.jsdtscope 与web日志有关的东西
+
+org.\**.component 里面是
+
+这样子的
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    // 这个是你的 项目名字，如果是复制的项目，这里的配置是不会变的
+    <wb-module deploy-name="10.SpringMVC_interceptor">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/conf"/>
+        // tomcat 启动后显示的名字 就是下面的名字
+        <property name="java-output-path" value="/10.SpringMVC_interceptor/build/classes"/>
+        // 还有这种地方，
+        <property name="context-root" value="10.SpringMVC_interceptor"/>
+    </wb-module>
+</project-modules>
+```
+
+
+
+![image-20200512235358052](eclipse项目小配置.assets/image-20200512235358052.png)
+
