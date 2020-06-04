@@ -64,6 +64,33 @@
 * `jshell`大概就是跟`py`在`cmd`编程那种意思
 *  面向`cmd`编程
 
+### 进入
+
+```shell
+# 启动
+jshell
+# 详细模式启动
+jshell -v
+
+```
+
+### 命令
+
+```shell
+# 列出输入过的 有效的代码
+/list
+# 显示所有方法
+/methods
+# 显示导入的包
+/imports
+# 打开外部文件
+/open E:\\Desktop\\test.java
+# 或者(Linux下)
+/open /usr/local/test.java
+```
+
+
+
 
 
 ---
