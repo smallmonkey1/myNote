@@ -19,12 +19,14 @@
 
     - ```xml
       <parent> 
-          	<groupId>org.springframework.boot</groupId>
-          	<artifactId>spring-boot-dependencies</artifactId> 			<version>2.1.6.RELEASE</version>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-dependencies</artifactId> 			
+          <version>2.1.6.RELEASE</version>
           <relativePath>../../spring-boot-dependencies</relativePath>
-      </parent> 真正管理Spring Boot应用的所有依赖版本
+      </parent> 
+<!--真正管理Spring Boot应用的所有依赖版本-->
       ```
-
+      
     - ---
 
 1. #### 启动器
