@@ -78,11 +78,11 @@ Idea创建web项目细节：
 
 #### 如何修改/创建web.xml：？？
 
-![image-20200319212518173](E:\Desktop\note\Dubbo\Edition_2.assets\image-20200319212518173.png)
+![image-20200319212518173](Edition_2.assets\image-20200319212518173.png)
 
 先点到项目总Web那里，然后点一下右边的；；；然后是这样的
 
-![image-20200319212550577](E:\Desktop\note\Dubbo\Edition_2.assets\image-20200319212550577.png)
+![image-20200319212550577](Edition_2.assets\image-20200319212550577.png)
 
 点ok，
 
@@ -90,7 +90,7 @@ Idea创建web项目细节：
 
 #### 部署项目：
 
-![image-20200319212716596](E:\Desktop\note\Dubbo\Edition_2.assets\image-20200319212716596.png)
+![image-20200319212716596](Edition_2.assets\image-20200319212716596.png)
 
 选那个后缀是`exploded`的，我也不知道是为什么，反正20-3-19还没开始研究
 
@@ -98,10 +98,11 @@ Idea创建web项目细节：
 
 ### Application context设置访问路径：
 
-![image-20200320145242324](E:\Desktop\note\Dubbo\Edition_2.assets\image-20200320145242324.png)
+![image-20200320145242324](Edition_2.assets\image-20200320145242324.png)
 
 往下拉就看的见了，然后效果是这样子的
 
-![image-20200320145306686](E:\Desktop\note\Dubbo\Edition_2.assets\image-20200320145306686.png)
+![image-20200320145306686](Edition_2.assets\image-20200320145306686.png)
 
 这样子访问
+

@@ -45,7 +45,7 @@
 * `hashTable`线程安全，效率低；
 * `ConcurrentHashMap`-采用 **“锁分段”** 机制
 
-![image-20200229150135326](E:\Desktop\note\Java JUC\image-20200229150135326.png)
+![image-20200229150135326](Java JUC\image-20200229150135326.png)
 
 * `java8`以后把`ConcurrentHashMap`底层也变成课`CAS`算法
 
